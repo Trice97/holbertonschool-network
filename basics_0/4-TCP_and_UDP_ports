@@ -1,3 +1,2 @@
-#!/usr/bin/bash
-# This script displays all listening TCP and UDP ports on the host.
-netstat -tuln | grep LISTEN
+#!/usr/bin/env bash
+netstat -tulp
