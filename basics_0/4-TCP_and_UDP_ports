@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+"""Script that check the open tcp ucp ports on the systrem."""
 netstat -tulp
